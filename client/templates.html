@@ -1,0 +1,50 @@
+<head>
+  <title>bank</title>
+</head>
+
+
+<template name="signup">
+  <div id="heading">
+    Signup Yourself here
+    </div>
+    <form class="" method="post">
+      <input type="email" id="email" placeholder="email@xyz.com">
+      <input type="password" id="password">
+      <button type="button" class="signup">Signup</button>
+    </form>
+
+</template>
+
+<template name="login">
+  <div id="heading">
+    login
+  </div>
+  <form class="" method="post">
+    <input type="email" id="email" placeholder="email@xyz.com">
+    <input type="password" id="password">
+    <button type="button" class="login">Login</button><br>
+    <a href="/signup">Click here to Signup</a>
+
+  </form>
+</template>
+
+<template name="dashboard">
+
+  <button type="button" class="borrowed" value="test">Borrowed</button>
+  <button type="button" class="lent">Lent</button>
+  <button type="button" class="lend">Lend</button>
+  <a href="/borrow"><button type="button" class="borrow">Borrow</button></a><br>
+  <br>
+  <br>
+  <div id="display">
+
+  </div>
+</template>
+
+<template name="borrow">
+  <form class="" method="post">
+    <input type="text" id="borrow_money">
+    <button type="button" class="test">Borrow</button>
+  </form>
+
+</template>

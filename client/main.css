@@ -1,0 +1,17 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+#heading{
+  color:red;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table, td, th {
+  border: 1px solid black;
+}
+button.clend{
+  width:100%;
+}

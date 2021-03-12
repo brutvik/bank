@@ -1,0 +1,7 @@
+{
+  "galaxy.meteor.com": {
+     "env": {
+       "MONGO_URL": "mongodb://admin:<password>@SG-transactions-42363.servers.mongodirector.com:27017/admin"
+     }
+   }
+}
